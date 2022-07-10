@@ -1,7 +1,6 @@
-
 #!/bin/sh
 
-# config
+# config xray
 cat << EOF > /etc/config.json
 {
   "inbounds":[
@@ -34,7 +33,7 @@ cat << EOF > /etc/config.json
       "streamSettings": {
         "network": "ws"
       }
-    }
+    }    
   ],
   "outbounds": [
     {
